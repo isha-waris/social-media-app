@@ -1,0 +1,9 @@
+Imagine you're the manager of a library, and you have a list of books on a shelf. The postListReducer function is like a librarian who manages the books on the shelf.
+
+When someone wants to add a new book, they give the book to the librarian (dispatch an "ADD_POST" action), and the librarian adds the book to the shelf (updates the state).
+
+When someone wants to edit a book, they give the updated book to the librarian (dispatch an "EDIT_POST" action), and the librarian updates the book on the shelf (updates the state).
+
+When someone wants to delete a book, they tell the librarian to remove the book from the shelf (dispatch a "DELETE_POST" action), and the librarian removes the book (updates the state).
+
+The useReducer hook is like a magic notebook that keeps track of the state of the shelf and updates it whenever the librarian makes a change. The PostListProvider component is like a messenger who delivers the updated state to all the child components that are interested in the state of the shelf.
